@@ -1,12 +1,13 @@
 // Net Salary Calculator (Toy Problem)
 // User information
 const prompt = require("prompt-sync")();
-const basicSalaryInput = prompt("Input basic salary:");
-const benefitsInput = prompt("Input benefits:");
+//User inputs are converted to  numbers.
+let basicSalaryInput = parseFloat(prompt("Input basic salary:"));
+let benefitsInput = parseFloat(prompt("Input benefits:"));
  // total salary(gross Salary)
 const grossSalary = basicSalaryInput + benefitsInput;
 console.log('Your Gross Salary is:', grossSalary);
-// Calculate payee
+// Calculate paye
 let paye;
 if(grossSalary <= 288000){
     paye = grossSalary * 10 / 100;

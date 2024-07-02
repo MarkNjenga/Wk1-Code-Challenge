@@ -1,8 +1,32 @@
 ##  Speed Detector (Toy Problem)
-## JavaScript
-1. The speedDetector() function contains the logic for calculating the demerit points of a car based on the speed input.It contains:
-- A constant maximum speed
-- A prompt() function which is used to ask the user to input the car's speed, and the input is stored in the speedInput variable.
-- The Number() function is used to convert the user's input stored in speedInput to a numerical value.
-- The first if statement checks if the car speed is less than or equal to the maximum speed and if the condition is me, the code inside the code block is executed. If otherwise, the code inside else is executed.
-- The second if else statement checks if the demerit points are greator than the maximum and if the conditions are met, the code  inside its code block is executed. 
+. This is a simple program that calculates the demerit points for a driver based on the car's speed.
+. Calculates the excess speed over the maximum speed(70km/s).
+. Calculates the demerits points based on the excess speed (1 demerit point for every 5km/s over the maximum speed).
+. Displays the appropriate message based on the demerit points :
+    -"Ok" if the car's speed is within the speed limit.
+    -The number of number points if the driver is within the maximum limit (12 demerit points).
+    -"Licence suspended."if the maximum demerits points.
+
+## Instructions 
+Firstly, run npm install prompt-sync to enable the prompt function to work seamlessly .
+Fork and clone this project to your local enviroment.
+
+## JavaScript code explanation
+The main function, speedDetector() is responsible:
+1. Sets the speed limit and maximum demerit points.
+2. Prompts the user to enter the car's speed.
+3. Checks if the car's speed is within the speed limit.
+4. If the speed is within the limit displays "Ok".
+5. If the speed is over the limit, calculates the excess speed and demerit points.
+6. Checks if the demerit points exceed the maximum.
+7. If the demerit points are within the limit, displays the number of demerit points.
+8. If the demerit points exceed the maximu, displays "Licence suspended".
+
+## Author
+This code was developed By Mark Njenga. 
+Gthub - https://github.com/MarkNjenga
+lInkedIn - https://www.linkedin.com/404/
+
+## Resources
+The data used for this program was sourced from : https://moringa.instructure.com/courses/777/assignments/56014?module_item_id=122033
+

@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 //Speed Detector (Toy Problem)
 function speedDetector(){
     const maxSpeed = 70;
@@ -15,3 +17,4 @@ function speedDetector(){
         }
     }
 }
+speedDetector();

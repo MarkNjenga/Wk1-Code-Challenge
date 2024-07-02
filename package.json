@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "challenge",
+  "version": "1.0.0",
+  "main": "Calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkNjenga/Wk1-Code-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkNjenga/Wk1-Code-Challenge/issues"
+  },
+  "homepage": "https://github.com/MarkNjenga/Wk1-Code-Challenge#readme",
+  "description": ""
+}

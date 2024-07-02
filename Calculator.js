@@ -1,5 +1,6 @@
 // Net Salary Calculator (Toy Problem)
 // User information
+const prompt = require("prompt-sync")();
 const basicSalaryInput = prompt("Input basic salary:");
 const benefitsInput = prompt("Input benefits:");
  // total salary(gross Salary)
@@ -18,7 +19,7 @@ if(grossSalary <= 288000){
 }else{
     paye = 2985575 + (grossSalary - 9600000) * 35 / 100;
 }
-consolele.log('Your paye is: ', paye);
+console.log('Your paye is: ', paye);
 // NHIF Deductions
 let nhifDeductions;
 if(grossSalary <= 5999){
@@ -66,5 +67,5 @@ if(grossSalary <= 7000){
 }
 console.log('Your NSSF Deductions is:',nssfDeductions )
 // Net Salary
-let netSalary = grossSalary - payee - nhifDeductions - nssfDeductions;
+let netSalary = grossSalary - paye - nhifDeductions - nssfDeductions;
 console.log('Your Net Salary is:', netSalary);

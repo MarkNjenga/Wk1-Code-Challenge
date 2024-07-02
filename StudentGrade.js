@@ -1,20 +1,21 @@
 // Student Grade Generator (Toy Problem)
-
+const prompt = require("prompt-sync")();
 function getStudentGrade(){
     const marksInput = prompt("Enter student's marks (0-100):")
-    const marks = parseFloat(marksInput);
+    const marks = marksInput
     if(marks < 0 || marks > 100 || isNaN(marks)) {
      console.log("Please input a number between 0 and 100");
     } 
     if(marks > 79){
-        return "A";
-    }else if(marks >60 && marks <= 79){
-        return "B";
+      console.log('A');
+    }else if(marks >= 60 && marks <= 79){
+      console.log("B");
     }else if(marks <= 59 && marks >= 49){
-        return "C";
+      console.log("C");
     }else if(marks >= 40 && marks < 49){
-        return "D";
-    }else {
-        return "E";
+       console.log("D");
+    }else if(marks < 40) {
+        console.log("E");
     }
 }
+getStudentGrade();

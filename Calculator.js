@@ -1,6 +1,7 @@
 // Net Salary Calculator (Toy Problem)
 // User information
 const prompt = require("prompt-sync")();
+function getNetSalary(){
 //User inputs are converted to  numbers.
 let basicSalaryInput = parseFloat(prompt("Input basic salary:"));
 let benefitsInput = parseFloat(prompt("Input benefits:"));
@@ -70,3 +71,5 @@ console.log('Your NSSF Deductions is:',nssfDeductions )
 // Net Salary
 let netSalary = grossSalary - paye - nhifDeductions - nssfDeductions;
 console.log('Your Net Salary is:', netSalary);
+}
+getNetSalary();

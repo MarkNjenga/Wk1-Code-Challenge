@@ -1,4 +1,4 @@
-1. # Student Grade Generator(Toy problem)
+ # 1. Student Grade Generator(Toy problem)
 This is a simple JavaScript application that  prompts a user to enter a student's marks and displays the corresponding grade based on the following grade:
 . A > 79
 . B- 60to 79
@@ -20,7 +20,7 @@ The main function, getStudentGrade():
 -Once a valid input is received, it checks the marks and returns the corresponding grade.
 
 
-2. ##  Speed Detector (Toy Problem)
+ # 2. Speed Detector (Toy Problem)
 . This is a simple program that calculates the demerit points for a driver based on the car's speed.
 . Calculates the excess speed over the maximum speed(70km/s).
 . Calculates the demerits points based on the excess speed (1 demerit point for every 5km/s over the maximum speed).
@@ -43,7 +43,7 @@ The main function, speedDetector() is responsible:
 8. If the demerit points exceed the maximu, displays "Licence suspended".
 
 
-3. # Net Salary Calculator (Toy Problem)
+ # 3. Net Salary Calculator (Toy Problem)
 This program that calculates an individual's net salary based on their basic salary, benefits and tax rates , NHIF deductions and NSSF deductions provided in the URL: https://www.aren.co.ke/payroll/taxrates.htm.
 ## Instructions 
 Firstly, run npm install prompt-sync to enable the prompt function to work seamlessly .
